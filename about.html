@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|University|</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at quae deserunt illo eaque unde ab
+                    saepe aliquam quam temporibus veritatis cumque perferendis laudantium recusandae ex quas tempora
+                    itaque officiis, enim illum placeat provident dolor. Quibusdam numquam consectetur rerum laboriosam
+                    sapiente iure nobis qui id natus quo perspiciatis, sit vel! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Illo, incidunt expedita suscipit maxime doloremque sit eos est minus maiores ut
+                    molestiae nulla minima inventore soluta amet, itaque dolor deserunt commodi dicta, fugit quia rerum
+                    aperiam hic. Temporibus, aut! Totam veniam provident eaque vitae nisi obcaecati illum ad omnis.
+                    Quam, unde.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="assets/images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, consequatur earum asperiores ab molestias
+            placeat tenetur quod fugit quaerat.<br> Magni nostrum magnam sunt vero rem nobis architecto autem enim.
+            Accusantium, voluptatem laudantium?</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+
+    </section>
+
+    <!-- javascrip for toggle menu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
